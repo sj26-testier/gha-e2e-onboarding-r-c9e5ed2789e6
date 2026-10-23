@@ -2,4 +2,6 @@ on: push
 jobs:
   hello:
     steps:
-      - run: echo "Hello from Rails PR 36787"
+      - run: |
+          echo "Intentional failure PR 36787"
+          exit 7
