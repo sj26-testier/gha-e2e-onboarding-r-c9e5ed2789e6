@@ -1,5 +1,6 @@
 on: push
 jobs:
   hello:
+    runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello from Rails PR 36787"
+      - run: echo "Unsupported workflow must not run"
