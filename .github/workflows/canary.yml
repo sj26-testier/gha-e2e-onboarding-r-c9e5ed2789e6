@@ -2,4 +2,9 @@ on: push
 jobs:
   hello:
     steps:
+      - run: echo "Hello from Rails PR 36787 success"
+on: push
+jobs:
+  hello:
+    steps:
       - run: echo "Hello from Rails PR 36787"
