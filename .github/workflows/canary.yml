@@ -2,4 +2,4 @@ on: push
 jobs:
   hello:
     steps:
-      - run: echo "Hello from async Rails importer - 4K canary"
+      - run: echo "Hello from asynchronous production canary"
